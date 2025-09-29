@@ -9,7 +9,7 @@ import { ref } from 'vue'
 import ImageCarousel from './components/ImageCarousel.vue'
 
 const images = ref(
-  Array.from({ length: 20 }, (_, i) => ({
+  Array.from({ length: 30 }, (_, i) => ({
     url: `https://picsum.photos/seed/${i+1}/600/400`
   }))
 )
